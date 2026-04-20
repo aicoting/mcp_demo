@@ -3,7 +3,6 @@
 基于 FastAPI 与 FastMCP 构建的智能 KPI Dashboard 服务端。  
 支持本地数据分析与智能体交互，适用于企业运营、业务监控、智能分析等场景。
 
----
 
 ## 🌟 项目亮点
 
@@ -12,7 +11,6 @@
 - 📊 内置数据分析模块，无需外部数据库或 CSV 文件  
 - 🔧 支持本地开发调试与 VS Code 插件使用  
 
----
 
 ## 📁 项目结构
 
@@ -29,14 +27,13 @@ kpi-dashboard-mcp-server/
 
 ```
 
----
 
 ## 🚀 快速开始
 
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/zhangting-hit/mcp_demo.git
+git clone https://github.com/aicoting/mcp_demo.git
 cd mcp_demo
 ```
 
@@ -56,7 +53,6 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
 
 ## ▶️ 启动服务
 
@@ -87,7 +83,6 @@ FastMCP Server is running at http://localhost:8080
 > ![API 示例](imgs/api.png)
 > ![MCP 示例](imgs/fastmcp.png)
 
----
 
 ## 🔗 Cherry Studio 中连接 MCP Server
 
@@ -112,7 +107,6 @@ FastMCP Server is running at http://localhost:8080
 
 > ![结果示例](imgs/result.png)
 
----
 
 ## 📡 API 接口说明
 
@@ -130,7 +124,6 @@ FastMCP Server is running at http://localhost:8080
 }
 ```
 
----
 
 ## 💡 示例：添加新的 KPI 分析逻辑
 
@@ -143,7 +136,6 @@ def calculate_average_order_value(sales_data):
 
 然后在 `api.py` 的 `/kpi/summary` 接口中使用它。
 
----
 
 ## 📚 技术栈
 
@@ -151,7 +143,6 @@ def calculate_average_order_value(sales_data):
 * [FastMCP](https://github.com/zhplus/fastmcp)
 * Python 3.8+
 
----
 
 ## 📌 常见问题
 
@@ -162,7 +153,7 @@ A: 直接访问根路径会返回 404，请使用以下路径：
 * [http://127.0.0.1:8000/kpi/summary](http://127.0.0.1:8000/kpi/summary)
 * [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
----
+
 
 ## 🧑‍💻 开发者建议
 
@@ -170,7 +161,7 @@ A: 直接访问根路径会返回 404，请使用以下路径：
 * MCP Server 支持扩展上下文记忆、图表输出、多轮问答
 * 可用于构建嵌入式知识库、BI 平台、客户运营分析系统等
 
----
+
 
 ## 📄 License
 
